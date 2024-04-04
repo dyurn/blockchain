@@ -38,5 +38,4 @@ def get_block_info_from_api(block_hash):
 #block_hash = "00000000000000000000396136a25694ee9ae7acdc5401bcae130a331c2b3e65"
 print(get_block_info_from_api(get_latest_block_hash()))
     
-#
 #print(get_latest_block_hash())
