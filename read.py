@@ -39,5 +39,4 @@ def get_block_info_from_api(block_hash):
 print(get_block_info_from_api(get_latest_block_hash()))
     
 
-#
 #print(get_latest_block_hash())
