@@ -1,20 +1,62 @@
-Bitcoin Blockchain Dernier Bloc Info
+# Blockchain Analyzer
 
-Ce script Python permet de récupérer des informations sur le dernier bloc de la blockchain Bitcoin en utilisant l'API de Blockchain.info. Il fournit le hash du dernier bloc, le nombre de transactions qu'il contient, ainsi que les commissions (frais de transaction) payées aux mineurs, converties en Bitcoin (BTC).
+## Overview
 
-Fonctionnalités
+This Python project provides tools to fetch and analyze data from Bitcoin blockchain blocks. It allows users to navigate through blocks, visualize key statistics, and detect potential anomalies in block times and mining fees as selfish mining attacks.
 
-Récupération du hash du dernier bloc de la blockchain Bitcoin.
-Extraction et affichage du nombre de transactions dans ce bloc.
-Calcul et affichage des commissions des mineurs en BTC.
+## Features
 
-Prérequis
+- Fetch block data using the Blockchain.com API.
+- Navigate through blockchain blocks forward and backward.
+- Select blocks for deeper analysis.
+- Visualize various block attributes such as mining fees, number of transactions, and block sizes.
+- Perform automatic or manual analysis of block sequences to detect trends or anomalies.
 
-Pour exécuter ce script, vous avez besoin de Python 3 et de la bibliothèque requests. Vous pouvez installer requests en utilisant pip :
-pip install requests
+## Installation
 
-Fonctionnalités détaillées
+### Prerequisites
 
-get_latest_block_hash() : Cette fonction interroge l'API de Blockchain.info pour obtenir le hash du dernier bloc miné sur la blockchain Bitcoin.
+Ensure you have Python 3.x installed on your system. You will also need the following packages:
+- `requests` for making API calls.
+- `matplotlib` and `numpy` for data visualization.
 
-get_block_info_from_api(block_hash) : Avec le hash d'un bloc spécifique obtenu, cette fonction interroge l'API pour extraire des informations détaillées sur ce bloc, telles que le nombre de transactions qu'il contient et les frais de transaction en BTC.
+### Setup
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/yourusername/bitcoin-block-analyzer.git
+
+2. Navigate to the project directory
+    ```bash
+    cd blockchain
+
+3. Install the required Python packages:
+    ```bash
+    pip install requests matplotlib numpy
+
+## Contributing
+
+Contributions to the Blockchain Analyzer are welcome! Here's how you can contribute:
+
+1. **Fork the repository.** This allows you to freely experiment with changes without affecting the original project.
+
+2. **Create a new branch for your feature** (`git checkout -b feature/your_feature_name`). This keeps your changes organized and separate from the main project.
+
+3. **Commit your changes** (`git commit -am 'Add some feature'`). This records your modifications in your local repository.
+
+4. **Push to the branch** (`git push origin feature/your_feature_name`). This uploads your branch to your GitHub repository.
+
+5. **Create a new Pull Request**. This notifies the maintainers of the project that you wish to merge your changes into the main project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contact
+
+- **Thomas Bottinelli**: thomas.bottinelli@esme.fr
+- **Daniel Eung**: daniel.eung@esme.fr
+- **Alex Xu**: alex.xu@esme.fr
+- **GitHub**: [dyurn](https://github.com/dyurn)
+- **With Contributions by**: Michel Khazzaka
+
