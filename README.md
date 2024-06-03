@@ -24,7 +24,7 @@ Ensure you have Python 3.x installed on your system. You will also need the foll
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/bitcoin-block-analyzer.git
+   git clone https://github.com/dyurn/blockchain.git
 
 2. Navigate to the project directory
     ```bash
